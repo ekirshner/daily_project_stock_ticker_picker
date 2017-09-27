@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ul {
+  list-style-type: none;
+}
+
+.search-section {
+  width: 180px;
+  font-size: 10px;
+  margin: 2%;
+}
+
+input {
+  width: 173px;
+  font-size: 10px;
+}
+
+
+.search-section ul {
+  padding-left: 0;
+  border: .5px solid lightgrey; 
+  margin-top: 0;
+}
+
+.search-section li {
+  cursor: pointer;
+}
+
+.search-section li:hover {
+  background-color: lightgrey;
+}
+
+img {
+  width: 500px;
+}
+
+.container-div {
+  display: flex;
+}
+
+.graph-section {
+  width: 90%;
+  margin-right: 5%;
+}
+
+.tracked-li {
+  color: skyblue;
+  font-weight: bold;
+  border-bottom: 1px solid lightgrey; 
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 15%;
+}
+
+p {
+  font-size: 8px;
+  color: black;
+  width: 100px;
+}
+
+ h3 {
+  color: #383838;
+ }
